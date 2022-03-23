@@ -1,0 +1,13 @@
+export const catalogWsmRoles = {
+  CATALOG_WSM: "CATALOG_WSM",
+  CATALOG_TECH: "CATALOG_TECH",
+};
+
+export const catalogQaRoles = {
+  CATALOG_QA: "CATALOG_QA",
+  WORKSHOP_L1: "CATALOG_QA_SC_1",
+  WORKSHOP_L2: "CATALOG_QA_SC_2",
+  WORKSHOP_L3: "CATALOG_QA_SC_3",
+  YARD_L1: "CATALOG_QA_YARD_1",
+  STUDIO_QA: "CATALOG_STUDIOQA",
+};
