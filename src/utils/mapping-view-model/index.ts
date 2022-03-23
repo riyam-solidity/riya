@@ -1,0 +1,1 @@
+export {mapInspectionStatusViewModelValue} from "./mapping-view-model"
