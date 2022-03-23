@@ -1,0 +1,10 @@
+version: '3.7'
+
+services:
+  refurb-console-qa:
+    container_name: refurb-console-qa
+    build:
+      context: .
+      dockerfile: Dockerfile.qa
+    ports:
+      - '80:80'

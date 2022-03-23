@@ -1,0 +1,45 @@
+{
+    "compilerOptions": {
+        "paths": {
+            "@constants/*": [
+                "./constants/*"
+            ],
+            "@screens/*": [
+                "./views/screens/*"
+            ],
+            "@config": [
+                "./config"
+            ],
+            "@hoc/*": [
+                "./views/hoc/*"
+            ],
+            "@services/*":[
+                "./services/*"
+            ],
+            "@utils/*": [
+                "./utils/*"
+            ],
+            "@shared/*": [
+                "./views/components/shared/*"
+            ],
+            "@views/*": [
+                "./views/*"
+            ],
+            "@app-config/*":[
+                "./config/*"
+            ],
+            "@state/*":[
+                "./state/*"
+            ],
+            "@enums/*":[
+                "./enums/*"
+            ],
+            "@components/*":[
+                "./views/components/*"
+            ],
+            "@helper/*": [
+                "./helper/*"
+            ]
+        }
+    }
+}
