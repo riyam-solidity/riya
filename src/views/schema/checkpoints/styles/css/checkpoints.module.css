@@ -1,0 +1,8 @@
+.newCheckPoint {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid #ebebeb;
+  margin: 0px 0 40px 0;
+  padding: 40px 0 0 0;
+}
