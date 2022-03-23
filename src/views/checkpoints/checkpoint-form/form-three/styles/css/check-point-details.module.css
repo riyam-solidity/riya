@@ -1,0 +1,45 @@
+.checkPointsTitleCard {
+    padding: 12px 24px;
+}
+.addRemoveCtaWrapper {
+    padding: 12px 24px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.addRemoveCtaWrapper button {
+    background-color: #fff;
+}
+.addRemoveCtaWrapper::after {
+    content: '';
+    border-top: 1px solid #EBEBEB;
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    bottom: 0;
+    left: 2%;
+    margin: auto;
+}
+.checkes {
+    display: flex;
+    margin: 36px 0;
+}
+.checkes label {
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: #212121;
+}
+.prepopulation {
+    display: flex;
+    align-items: center;
+}
+.prepopulation span {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: block;
+    color: #8b8888;
+    padding: 24px 18px 0 18px;
+}

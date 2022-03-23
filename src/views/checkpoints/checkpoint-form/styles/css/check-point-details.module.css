@@ -1,0 +1,33 @@
+.checkPointsTitleCard {
+    padding: 12px 24px;
+}
+.addRemoveCtaWrapper {
+    padding: 12px 24px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.addRemoveCtaWrapper button {
+    background-color: #fff;
+}
+.addRemoveCtaWrapper::after {
+    content: '';
+    border-top: 1px solid #EBEBEB;
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    bottom: 0;
+    left: 2%;
+    margin: auto;
+}
+.pagesaveCta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pagesaveCta button {
+    width: auto;
+    padding: 0 70px;
+    margin: 50px 10px;
+}

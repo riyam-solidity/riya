@@ -1,0 +1,62 @@
+.checkPointsTitleCard {
+  padding: 12px 24px;
+}
+.checkPointsRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.checkPointTitle {
+  color: #393939;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 36px;
+  display: flex;
+}
+.checkPointTitle span {
+  width: 40px;
+  display: block;
+  /* margin-right: 20px; */
+}
+.checkPointTitle h2 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 36px;
+  color: #393939;
+}
+.editWrapepr ul {
+  display: flex;
+  align-items: center;
+}
+.checkPointsTitleCard .editWrapepr ul li {
+  border-top: none;
+  border-bottom: none;
+  position: relative;
+  padding: 0 24px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.editWrapepr ul li::after {
+  content: "";
+  border: 0.5px solid rgba(57, 57, 57, 0.6);
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+.editWrapepr ul li:last-child:after {
+  content: "";
+  border: none;
+}
+.editWrapepr ul li.edit {
+  color: #f37500;
+}
+.editWrapepr ul li.active {
+  color: #10a563;
+}
+.editWrapepr ul li.deactive {
+  color: #d03636;
+}
